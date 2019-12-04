@@ -4,7 +4,7 @@ if __name__ == '__main__': arr = input().split()     #command line parser
 range(beg,end,step), range(n)  #range(1,5,1) = [1,2,3,4] range(3) = [0, 1, 2]
 import sys, sys.maxsize #max default size in python 3, python 2 can use sys.maxint
   
-#lamda(lambda arguments: expression) 
+##lamda(lambda arguments: expression) 
 double = lambda x: x * 2  print(double(5))   #10
 
 #filter(function, list)
